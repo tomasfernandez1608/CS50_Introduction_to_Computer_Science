@@ -1,0 +1,24 @@
+sort1 uses: Bubble sort
+How do you know?: because a bubble sort always gonna be more faster than Selection sort in a file sorted because we know
+bubble sort performs better when the numbers are already in sorted.txt
+times:
+    random 5000 0,184s
+    random 10000 0,315s
+    random 50000 7.881s
+    reversed 5000/10000/50000 -> 0,070s/0.280s/6.011s
+    sorted 5000/10000/50000 -> 0,043s/0,061s/1,059s
+
+sort2 uses: Merge sort
+How do you know?: because when we work with big number is significal more faster than sort1 and sort3
+times:
+    random 5000/10000/50000 -> 0.045s/0,083s/0,925s
+    reversed 5000/10000/50000 -> 0.022s/0,070s/0,916s
+    sorted 5000/10000/50000 -> 0.035s/0,049/0,951s
+
+sort3 uses: Selection sort
+
+How do you know?: because this have a similar performs in random or reversed file but is significal more slow in sorted files
+times:
+    random 5000/10000/50000 -> 0.80s/0.211s/4.103s
+    reversed 5000/10000/50000 -> 0.71s/0.120s/3.970s
+    sorted 5000/10000/50000 -> 0.71s/0.175s/3.600s

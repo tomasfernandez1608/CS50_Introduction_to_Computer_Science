@@ -1,0 +1,69 @@
+
+.item{
+    width: auto;
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 20px;
+    color:#dc143c;
+    text-align:center;
+}
+
+#hobby{
+    width: 200px;
+    border: 5px solid grey;
+    padding: 50px;
+    margin: 20px;
+    text-align:center;
+}
+#description{
+    width: auto;
+    border: 2px solid grey;
+    padding: auto;
+    margin: 20px;
+
+}
+body{
+
+    background-Color:#fff8dc;
+}
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+.aboutme{
+    width: auto;
+    border: 2px;
+    border-color:white;
+    padding: 50px;
+    margin: 20px;
+}
+.accordion-collapse collapse"{
+    background-Color:#fff8dc;
+}
+.aboutme{
+    width: auto;
+    border: 2px;
+    border-color:white;
+    padding: 20px;
+    margin: 20px;
+}
+hr.dropdown-divider{
+    color:red;
+}
+.intruduction{
+    width: auto;
+    border: 2px white;
+    border-color:white;
+    padding: 20px;
+    margin: 20px;
+}
+div.content{
+    width: auto;
+    border: 2px white;
+    border-color:white;
+    padding: 50px;
+    margin: 20px;
+}
+
+.header{
+    background-color:FF7E62
+}

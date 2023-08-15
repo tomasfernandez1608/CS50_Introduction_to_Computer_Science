@@ -1,0 +1,4 @@
+
+It is not representative of the user's aura because
+we are taking the favorite songs chosen by the user for a whole year,so
+he could be in different moods which do not represent his current aura

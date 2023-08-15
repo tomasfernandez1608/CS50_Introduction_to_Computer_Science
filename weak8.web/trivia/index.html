@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            document.addEventListener('DOMContentLoaded', function(){
+                let correct = document.querySelector('.c');
+                correct.addEventListener('click',function(){
+                    correct.style.backgroundColor='green';
+                    document.querySelector('.answervalidation').innerHTML='CORRECT';
+                })
+                let incorrects = document.querySelectorAll('.inc');
+                for(let i = 0 ; i < incorrects.length;i++){
+                    incorrects[i].addEventListener('click',function(){
+                        incorrects[i].style.backgroundColor = 'red';
+                        document.querySelector('.answervalidation').innerHTML='INCORRECT';
+                    })
+                }
+                document.querySelector('#check').addEventListener('click',function(){
+                    let input = document.querySelector('.ans2');
+                    if (input.value === 'Mercedes Benz'){
+                        input.style.backgroundColor='green';
+                        document.querySelector('.answervalidation2').innerHTML='CORRECT';
+                    } else {
+                        input.style.backgroundColor='red';
+                        document.querySelector('.answervalidation2').innerHTML='INCORRECT';
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Which of this cars dont have EA888 engine?</h3>
+                <button class="inc">VW GOLF GTI</button>
+                <button class="inc">AUDI A3</button>
+                <button class="c">BMW SERIE 1</button>
+                <h3 class="answervalidation"></h3>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What it's the most powerful 2.0 engine of prodution in the word?</h3>
+                <input placeholder="Answer" class="ans2" id="text">
+                <button id="check">Check Answer</button>
+                <h3 class="answervalidation2"></h3>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+SELECT birth as Edad FROM people WHERE people.name="Emma Stone" ;
